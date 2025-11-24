@@ -20,5 +20,4 @@ public class HttpUtils {
     public static void removeSession(HttpServletRequest request, String key) {
         request.getSession().removeAttribute(key);
     }
-
 }
