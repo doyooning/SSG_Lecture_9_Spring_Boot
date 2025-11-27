@@ -1,16 +1,16 @@
 package com.dynii.doplyshop.account.helper;
 
-import com.dynii.doplyshop.account.dto.AccountJoinRequests;
-import com.dynii.doplyshop.account.dto.AccountLoginRequests;
+import com.dynii.doplyshop.account.dto.AccountJoinRequest;
+import com.dynii.doplyshop.account.dto.AccountLoginRequest;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 public interface AccountHelper {
     // 회원가입
-    void join(AccountJoinRequests joinReq);
+    void join(AccountJoinRequest joinReq);
 
     // 로그인
-    String login(AccountLoginRequests loginReq, HttpServletRequest request, HttpServletResponse response);
+    String login(AccountLoginRequest loginReq, HttpServletRequest request, HttpServletResponse response);
 
     // 회원 아이디 조회
     Integer getMemberId(HttpServletRequest request);
