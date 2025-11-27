@@ -12,7 +12,8 @@ const props = defineProps({
     name: String,
     price: Number,
     discountPer: Number
-  }
+  },
+  loggedIn: Boolean,
 });
 
 // 상품 할인가
@@ -52,7 +53,7 @@ const put = async () => { // ②
         {{ props.item.description }}
       </p>
       <div class="d-flex justify-content-between align-items-center">
-        <button class="btn btn-primary btn-sm" @click="put()">장바구니 담기</button>
+        <button v-if="loggedIn" class="btn btn-primary btn-sm" @click="put()">장바구니 담기</button>
         <!-- 상품 정가(숫자 데이터에 3자리마다 쉼표 표기) -->
         <small class="price text-muted">{{ props.item.price.toLocaleString() }}원</small>
         <!-- 상품 할인가 -->

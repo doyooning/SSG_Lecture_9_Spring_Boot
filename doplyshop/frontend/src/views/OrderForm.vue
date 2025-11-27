@@ -4,6 +4,8 @@ import {addOrder} from "@/services/orderService";
 import {useRouter} from "vue-router";
 import {getItems} from "@/services/cartService";
 
+
+
 // 라우터 객체
 const router = useRouter(); // ①
 

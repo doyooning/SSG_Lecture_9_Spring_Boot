@@ -2,6 +2,10 @@
 import {getItems} from "@/services/itemService";
 import {reactive} from "vue";
 import Card from "@/components/Card.vue";
+import {useAccountStore} from "@/stores/account.js";
+
+// 로그인 상태 확인을 위한 Pinia store
+const accountStore = useAccountStore();
 
 // 반응형 상태
 const state = reactive({ // ① 반응형상태, 내부에 상품 목록을 저장할 items 배열, 해당 배열에 데이터가 추가되거나, 삭제되면 자동으로 UI에 반영된다.
@@ -34,7 +38,7 @@ const state = reactive({ // ① 반응형상태, 내부에 상품 목록을 저�
       <div class="container"> <!-- ④  템플릿의 핵심요소를 감싸는 컨테이너 max-width 설정-->
         <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-3"> <!-- ⑤ 열을 나타내는 요소 row-cols-* 클래스로 화면크기에 따라 하나의 열에 몇개의 컬럼을 출력할지 지정, g-3는 열간의 수직,수평 간격 적용-->
           <div class="col" v-for="item in state.items"> <!-- ⑥ 상품 목록 출력-->
-            <Card :item="item"/> <!-- ⑦ item 속성에 각 상품 데이터(item)을 입력해 전달-->
+            <Card :item="item" :loggedIn="accountStore.loggedIn"/> <!-- ⑦ item 속성에 각 상품 데이터(item)을 입력해 전달-->
           </div>
         </div>
       </div>

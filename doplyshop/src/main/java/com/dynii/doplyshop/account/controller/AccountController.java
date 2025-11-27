@@ -7,6 +7,8 @@ import com.dynii.doplyshop.account.helper.AccountHelper;
 import com.dynii.doplyshop.block.service.BlockService;
 import com.dynii.doplyshop.common.util.HttpUtils;
 import com.dynii.doplyshop.common.util.TokenUtils;
+import com.dynii.doplyshop.member.entity.Member;
+import com.dynii.doplyshop.member.service.MemberService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
@@ -85,4 +87,6 @@ public class AccountController {
 
         return new ResponseEntity<>(accessToken, HttpStatus.OK);
     }
+
+
 }
