@@ -24,15 +24,19 @@ public class Member {
     @Column(length = 100, nullable = false)
     private String loginPw;
 
+    @Column(length = 16, nullable = false)
+    private String loginPwSalt;
+
     @Column(updatable = false, nullable = false)
     @CreationTimestamp
     private LocalDateTime created;
 
     public Member() {}
 
-    public Member(String name, String loginId, String loginPw) {
+    public Member(String name, String loginId, String loginPw, String loginPwSalt) {
         this.name = name;
         this.loginId = loginId;
         this.loginPw = loginPw;
+        this.loginPwSalt = loginPwSalt;
     }
 }
