@@ -68,7 +68,7 @@ const submit = async () => { // ④
 </script>
 
 <template>
-  <form class="order-form" @submit.prevent="submit" :disabled="!isFormValid"> <!-- ⑥ -->
+  <form class="order-form" @submit.prevent="submit"> <!-- ⑥ -->
     <div class="container"> <!-- ⑦ -->
       <div class="py-5 text-center">
         <div class="h4">
@@ -98,7 +98,7 @@ const submit = async () => { // ④
             <span>합계 </span>
             <b>{{ computedTotalPrice.toLocaleString() }}원</b>
           </div>
-          <button type="submit" class="w-100 btn btn-primary py-4 mt-4">결제하기</button> <!-- ⑨ -->
+          <button type="submit" class="w-100 btn btn-primary py-4 mt-4" :disabled="!isFormValid">결제하기</button> <!-- ⑨ -->
         </div>
         <div class="col-md-7 col-lg-8">
           <div class="h5 mb-3">

@@ -1,7 +1,7 @@
 package com.ssg.gallery.account.controller;
 
-import com.ssg.gallery.account.dto.AccountJoinRequests;
-import com.ssg.gallery.account.dto.AccountLoginRequests;
+import com.ssg.gallery.account.dto.AccountJoinRequest;
+import com.ssg.gallery.account.dto.AccountLoginRequest;
 import com.ssg.gallery.account.helper.AccountHelper;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -18,7 +18,7 @@ public class AccountController {
 
     @PostMapping("/api/account/join")
     // 회원가입
-    public ResponseEntity<?> join(@RequestBody AccountJoinRequests joinReq) {
+    public ResponseEntity<?> join(@RequestBody AccountJoinRequest joinReq) {
         // 입력값이 비어있다면
         if (joinReq.getName() == null || joinReq.getLoginId() == null || joinReq.getLoginPw() == null) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
@@ -30,7 +30,7 @@ public class AccountController {
 
     // 로그인
     @PostMapping("/api/account/login")
-    public ResponseEntity<?> login(HttpServletRequest request, HttpServletResponse response, @RequestBody AccountLoginRequests loginReq) {
+    public ResponseEntity<?> login(HttpServletRequest request, HttpServletResponse response, @RequestBody AccountLoginRequest loginReq) {
         if(loginReq.getLoginId() == null || loginReq.getLoginPw() == null) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }

@@ -1,7 +1,7 @@
 package com.ssg.gallery.account.helper;
 
-import com.ssg.gallery.account.dto.AccountJoinRequests;
-import com.ssg.gallery.account.dto.AccountLoginRequests;
+import com.ssg.gallery.account.dto.AccountJoinRequest;
+import com.ssg.gallery.account.dto.AccountLoginRequest;
 import com.ssg.gallery.account.etc.AccountConstants;
 import com.ssg.gallery.common.util.HttpUtils;
 import com.ssg.gallery.member.entity.Member;
@@ -18,12 +18,12 @@ public class SessionAccountHelper implements AccountHelper {
     private final MemberService memberService;
 
     @Override
-    public void join(AccountJoinRequests joinReq) {
+    public void join(AccountJoinRequest joinReq) {
         memberService.save(joinReq.getName(), joinReq.getLoginId(), joinReq.getLoginPw());
     }
 
     @Override
-    public String login(AccountLoginRequests loginReq, HttpServletRequest request, HttpServletResponse response) {
+    public String login(AccountLoginRequest loginReq, HttpServletRequest request, HttpServletResponse response) {
         Member member = memberService.find(loginReq.getLoginId(), loginReq.getLoginPw());
         // 회원 데이터가 없으면
         if (member == null) {
