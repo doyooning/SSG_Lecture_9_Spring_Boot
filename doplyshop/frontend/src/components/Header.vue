@@ -17,6 +17,7 @@ const logoutAccount = async () => {
     accountStore.setAccessToken(""); // ① 로그 아웃을 위한 메서드 수정, 로그 아웃 성공시 계정 스토어의 액세스 토큰 값을 초기화하여 이후 HTTP 요청에서 토큰이 사용되지 않도록
     accountStore.setLoggedIn(false);
     await router.push("/");
+    window.alert("로그아웃되었습니다.")
   }
 };
 </script>
@@ -26,7 +27,7 @@ const logoutAccount = async () => {
     <div class="navbar navbar-dark bg-dark text-white shadow-sm">
       <div class="container">
         <router-link to="/" class="navbar-brand">
-          <strong>Gallery</strong>
+          <strong>DoPlyShop</strong>
         </router-link>
         <div class="menus d-flex gap-3">
           <template v-if="!accountStore.loggedIn">

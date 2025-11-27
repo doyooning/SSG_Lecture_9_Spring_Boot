@@ -53,7 +53,6 @@ const state = reactive({ // ① 반응형상태, 내부에 상품 목록을 저�
   font-size: 50px;         /* 글자 크기 */
   font-family: "Science Gothic", sans-serif;
   border-radius: 12px;     /* 모서리 둥글게 */
-  //margin-bottom: 40px;     /* 아래 콘텐츠와 간격 */
 }
 .home-ads {
   padding: 50px 0;
