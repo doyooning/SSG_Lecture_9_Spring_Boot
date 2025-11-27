@@ -31,7 +31,7 @@ public class TokenAccountHelper implements AccountHelper {
     }
 
     // 리프레시 토큰 조회
-    private String getRefreshToken(HttpServletRequest req) { // ⑦ 리프레시 토큰 조회메서드, HTTP 유틸을 호웇라형 쿠키에 담긴 리프레시 토큰을 조회하고 이를 리턴한다.
+    private String getRefreshToken(HttpServletRequest req) { // ⑦ 리프레시 토큰 조회메서드, HTTP 유틸을 호출하여 쿠키에 담긴 리프레시 토큰을 조회하고 이를 리턴한다.
         return HttpUtils.getCookieValue(req, AccountConstants.REFRESH_TOKEN_NAME);
     }
 
