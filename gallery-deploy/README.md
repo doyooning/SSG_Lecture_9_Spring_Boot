@@ -1,1 +1,1 @@
-springboot +  vueJs + mysql gallery workshop complete
+Gallery Service for deploy using AWS
