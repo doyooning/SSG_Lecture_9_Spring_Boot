@@ -3312,3 +3312,235 @@ Caused by: java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to
         i1_0.price 
     from
         items i1_0
+2025-11-28T10:35:14.205+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-28T10:35:20.593+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-28T10:35:20.649+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        members
+        (created, login_id, login_pw, login_pw_salt, name) 
+    values
+        (?, ?, ?, ?, ?)
+2025-11-28T10:35:21.616+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-28T10:35:26.184+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-28T10:35:26.267+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-28T10:36:48.880+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.created,
+        b1_0.token 
+    from
+        blocks b1_0 
+    where
+        b1_0.token=?
+2025-11-28T10:36:48.906+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        blocks
+        (created, token) 
+    values
+        (?, ?)
+2025-11-28T10:37:09.792+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-28T10:37:24.456+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-28T10:37:32.175+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-28T10:37:42.954+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-28T10:37:46.623+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-28T10:37:55.904+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-28T10:37:55.929+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-28T10:38:05.574+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-28T10:38:05.591+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-28T10:38:07.092+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-28T10:38:07.150+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-28T10:38:08.165+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-28T10:38:08.168+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-28T10:38:47.561+09:00 DEBUG 4024 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-28T10:39:45.377+09:00  INFO 4024 --- [gallery] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-28T10:39:45.379+09:00  INFO 4024 --- [gallery] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-28T10:39:45.386+09:00  INFO 4024 --- [gallery] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
