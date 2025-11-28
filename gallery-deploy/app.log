@@ -1,0 +1,3186 @@
+2025-11-27T15:20:35.187+09:00  INFO 12344 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 12344 (C:\study\gallery\build\classes\java\main started by a in C:\study\gallery)
+2025-11-27T15:20:35.195+09:00 DEBUG 12344 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-11-27T15:20:35.196+09:00  INFO 12344 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-27T15:20:35.503+09:00  WARN 12344 --- [gallery] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.ssg.gallery.GalleryApplication]
+2025-11-27T15:20:35.554+09:00 ERROR 12344 --- [gallery] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.ssg.gallery.GalleryApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.ssg.gallery.GalleryApplication.main(GalleryApplication.java:10) ~[main/:na]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'mainController' for bean class [com.ssg.gallery.common.MainController] conflicts with existing, non-compatible bean definition of same name and class [com.ssg.gallery.common.controller.MainController]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.13.jar:6.1.13]
+	... 13 common frames omitted
+
+2025-11-27T15:23:38.770+09:00  INFO 8140 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 8140 (C:\study\gallery\build\classes\java\main started by a in C:\study\gallery)
+2025-11-27T15:23:38.773+09:00 DEBUG 8140 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-11-27T15:23:38.774+09:00  INFO 8140 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-27T15:23:39.024+09:00  WARN 8140 --- [gallery] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.ssg.gallery.GalleryApplication]
+2025-11-27T15:23:39.089+09:00 ERROR 8140 --- [gallery] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.ssg.gallery.GalleryApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.ssg.gallery.GalleryApplication.main(GalleryApplication.java:10) ~[main/:na]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'mainController' for bean class [com.ssg.gallery.common.MainController] conflicts with existing, non-compatible bean definition of same name and class [com.ssg.gallery.common.controller.MainController]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.13.jar:6.1.13]
+	... 13 common frames omitted
+
+2025-11-27T15:23:47.829+09:00  INFO 22628 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 22628 (C:\study\gallery\build\classes\java\main started by a in C:\study\gallery)
+2025-11-27T15:23:47.831+09:00 DEBUG 22628 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-11-27T15:23:47.832+09:00  INFO 22628 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-27T15:23:48.012+09:00  WARN 22628 --- [gallery] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.ssg.gallery.GalleryApplication]
+2025-11-27T15:23:48.050+09:00 ERROR 22628 --- [gallery] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.ssg.gallery.GalleryApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.ssg.gallery.GalleryApplication.main(GalleryApplication.java:10) ~[main/:na]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'mainController' for bean class [com.ssg.gallery.common.MainController] conflicts with existing, non-compatible bean definition of same name and class [com.ssg.gallery.common.controller.MainController]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.13.jar:6.1.13]
+	... 13 common frames omitted
+
+2025-11-27T16:13:10.275+09:00  INFO 25496 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 25496 (C:\study\gallery\build\classes\java\main started by a in C:\study\gallery)
+2025-11-27T16:13:10.277+09:00 DEBUG 25496 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-11-27T16:13:10.278+09:00  INFO 25496 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-27T16:13:11.618+09:00  INFO 25496 --- [gallery] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27T16:13:11.773+09:00  INFO 25496 --- [gallery] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 6 JPA repository interfaces.
+2025-11-27T16:13:12.435+09:00  INFO 25496 --- [gallery] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-27T16:13:12.452+09:00  INFO 25496 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-27T16:13:12.452+09:00  INFO 25496 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-11-27T16:13:12.522+09:00  INFO 25496 --- [gallery] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-27T16:13:12.522+09:00  INFO 25496 --- [gallery] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2193 ms
+2025-11-27T16:13:12.689+09:00  INFO 25496 --- [gallery] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-27T16:13:13.878+09:00  INFO 25496 --- [gallery] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27T16:13:13.958+09:00  INFO 25496 --- [gallery] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-11-27T16:13:14.011+09:00  INFO 25496 --- [gallery] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-27T16:13:14.453+09:00  INFO 25496 --- [gallery] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27T16:13:14.497+09:00  INFO 25496 --- [gallery] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-27T16:13:15.507+09:00  WARN 25496 --- [gallery] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1045, SQLState: 28000
+2025-11-27T16:13:15.507+09:00 ERROR 25496 --- [gallery] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Access denied for user ''@'localhost' (using password: NO)
+2025-11-27T16:13:15.508+09:00  WARN 25496 --- [gallery] [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+org.hibernate.exception.GenericJDBCException: unable to obtain isolated JDBC connection [Access denied for user ''@'localhost' (using password: NO)] [n/a]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:63) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.ssg.gallery.GalleryApplication.main(GalleryApplication.java:10) ~[main/:na]
+Caused by: java.sql.SQLException: Access denied for user ''@'localhost' (using password: NO)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:120) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	... 35 common frames omitted
+
+2025-11-27T16:13:15.515+09:00 ERROR 25496 --- [gallery] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2025-11-27T16:13:15.517+09:00  WARN 25496 --- [gallery] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2025-11-27T16:13:15.520+09:00  INFO 25496 --- [gallery] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-11-27T16:13:15.533+09:00  INFO 25496 --- [gallery] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-27T16:13:15.555+09:00 ERROR 25496 --- [gallery] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.ssg.gallery.GalleryApplication.main(GalleryApplication.java:10) ~[main/:na]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+	... 15 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:153) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:364) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	... 30 common frames omitted
+
+2025-11-27T16:14:14.631+09:00  INFO 12376 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 12376 (C:\study\gallery\build\classes\java\main started by a in C:\study\gallery)
+2025-11-27T16:14:14.634+09:00 DEBUG 12376 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-11-27T16:14:14.635+09:00  INFO 12376 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-27T16:14:15.419+09:00  INFO 12376 --- [gallery] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27T16:14:15.521+09:00  INFO 12376 --- [gallery] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 6 JPA repository interfaces.
+2025-11-27T16:14:16.133+09:00  INFO 12376 --- [gallery] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-27T16:14:16.149+09:00  INFO 12376 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-27T16:14:16.149+09:00  INFO 12376 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-11-27T16:14:16.222+09:00  INFO 12376 --- [gallery] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-27T16:14:16.223+09:00  INFO 12376 --- [gallery] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1537 ms
+2025-11-27T16:14:16.396+09:00  INFO 12376 --- [gallery] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-27T16:14:16.544+09:00  INFO 12376 --- [gallery] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4017fe2c
+2025-11-27T16:14:16.547+09:00  INFO 12376 --- [gallery] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-27T16:14:16.592+09:00  INFO 12376 --- [gallery] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27T16:14:16.673+09:00  INFO 12376 --- [gallery] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-11-27T16:14:16.717+09:00  INFO 12376 --- [gallery] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-27T16:14:17.139+09:00  INFO 12376 --- [gallery] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27T16:14:17.259+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3de8f85c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@21abda60)
+2025-11-27T16:14:17.260+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@dd20ebc) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6c70b7c3)
+2025-11-27T16:14:17.260+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@16a09809) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@69a73867)
+2025-11-27T16:14:17.260+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@749d7c01) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1d3a03fe)
+2025-11-27T16:14:17.260+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@f48a080) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5f7cd50e)
+2025-11-27T16:14:17.260+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@401ec794) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@d76099a)
+2025-11-27T16:14:17.261+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@47f0f414) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7e1d8d41)
+2025-11-27T16:14:17.261+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4809c771) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@750e2d33)
+2025-11-27T16:14:17.261+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@359e27d2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@277bc3a5)
+2025-11-27T16:14:17.264+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NCharTypeDescriptor) replaced previous registration(CharTypeDescriptor)
+2025-11-27T16:14:17.264+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NVarcharTypeDescriptor) replaced previous registration(VarcharTypeDescriptor)
+2025-11-27T16:14:17.265+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(LongNVarcharTypeDescriptor) replaced previous registration(LongVarcharTypeDescriptor)
+2025-11-27T16:14:17.267+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NClobTypeDescriptor(DEFAULT)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2025-11-27T16:14:17.268+09:00 DEBUG 12376 --- [gallery] [main] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(2005, ClobTypeDescriptor(STREAM_BINDING)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2025-11-27T16:14:18.359+09:00  INFO 12376 --- [gallery] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27T16:14:18.363+09:00  INFO 12376 --- [gallery] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T16:14:18.869+09:00  WARN 12376 --- [gallery] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27T16:14:19.278+09:00  INFO 12376 --- [gallery] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-27T16:14:19.287+09:00  INFO 12376 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Started GalleryApplication in 5.253 seconds (process running for 6.292)
+2025-11-27T16:14:28.494+09:00  INFO 12376 --- [gallery] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-27T16:14:28.495+09:00  INFO 12376 --- [gallery] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-27T16:14:28.497+09:00  INFO 12376 --- [gallery] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-27T16:14:28.772+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:14:45.429+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-27T16:14:45.439+09:00  WARN 12376 --- [gallery] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1054, SQLState: 42S22
+2025-11-27T16:14:45.440+09:00 ERROR 12376 --- [gallery] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown column 'm1_0.login_pw_salt' in 'field list'
+2025-11-27T16:14:45.450+09:00 ERROR 12376 --- [gallery] [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select m1_0.id,m1_0.created,m1_0.login_id,m1_0.login_pw,m1_0.login_pw_salt,m1_0.name from members m1_0 where m1_0.login_id=?] [Unknown column 'm1_0.login_pw_salt' in 'field list'] [n/a]; SQL [n/a]] with root cause
+
+java.sql.SQLSyntaxErrorException: Unknown column 'm1_0.login_pw_salt' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:246) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:167) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:265) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:145) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:67) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:204) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:211) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:83) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:76) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:65) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$2(ConcreteSqmSelectQueryPlan.java:139) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:382) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:302) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:526) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:423) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:555) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:223) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:92) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:152) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:140) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:169) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:136) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy117.findByLoginId(Unknown Source) ~[na:na]
+	at com.ssg.gallery.member.service.BaseMemberService.find(BaseMemberService.java:58) ~[main/:na]
+	at com.ssg.gallery.account.controller.AccountController.join(AccountController.java:38) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-11-27T16:15:50.472+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-27T16:15:50.502+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        members
+        (created, login_id, login_pw, login_pw_salt, name) 
+    values
+        (?, ?, ?, ?, ?)
+2025-11-27T16:15:51.764+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:15:59.866+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-27T16:15:59.959+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:16:02.547+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:16:02.551+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:16:03.857+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:16:03.867+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:16:06.813+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:16:08.086+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:16:08.089+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:16:09.156+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:16:09.161+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:16:12.071+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:16:12.074+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:16:21.575+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:16:21.592+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        orders
+        (address, amount, card_number, created, member_id, name, payment) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-11-27T16:16:21.596+09:00  WARN 12376 --- [gallery] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1406, SQLState: 22001
+2025-11-27T16:16:21.596+09:00 ERROR 12376 --- [gallery] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Data truncation: Data too long for column 'card_number' at row 1
+2025-11-27T16:16:21.601+09:00 ERROR 12376 --- [gallery] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Data truncation: Data too long for column 'card_number' at row 1] [insert into orders (address,amount,card_number,created,member_id,name,payment) values (?,?,?,?,?,?,?)]; SQL [insert into orders (address,amount,card_number,created,member_id,name,payment) values (?,?,?,?,?,?,?)]] with root cause
+
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'card_number' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1340) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:671) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:292) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:273) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:323) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:757) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:741) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364) ~[spring-orm-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy113.persist(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319) ~[spring-orm-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy113.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:626) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy125.save(Unknown Source) ~[na:na]
+	at com.ssg.gallery.order.service.BaseOrderService.order(BaseOrderService.java:88) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.13.jar:6.1.13]
+	at com.ssg.gallery.order.service.BaseOrderService$$SpringCGLIB$$0.order(<generated>) ~[main/:na]
+	at com.ssg.gallery.order.controller.OrderController.add(OrderController.java:55) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-11-27T16:16:24.833+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:16:24.836+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        orders
+        (address, amount, card_number, created, member_id, name, payment) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-11-27T16:16:24.838+09:00  WARN 12376 --- [gallery] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1406, SQLState: 22001
+2025-11-27T16:16:24.838+09:00 ERROR 12376 --- [gallery] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Data truncation: Data too long for column 'card_number' at row 1
+2025-11-27T16:16:24.840+09:00 ERROR 12376 --- [gallery] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Data truncation: Data too long for column 'card_number' at row 1] [insert into orders (address,amount,card_number,created,member_id,name,payment) values (?,?,?,?,?,?,?)]; SQL [insert into orders (address,amount,card_number,created,member_id,name,payment) values (?,?,?,?,?,?,?)]] with root cause
+
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'card_number' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1340) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:671) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:292) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:273) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:323) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:757) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:741) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364) ~[spring-orm-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy113.persist(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319) ~[spring-orm-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy113.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:626) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy125.save(Unknown Source) ~[na:na]
+	at com.ssg.gallery.order.service.BaseOrderService.order(BaseOrderService.java:88) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.13.jar:6.1.13]
+	at com.ssg.gallery.order.service.BaseOrderService$$SpringCGLIB$$0.order(<generated>) ~[main/:na]
+	at com.ssg.gallery.order.controller.OrderController.add(OrderController.java:55) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-11-27T16:16:58.459+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:16:58.461+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        orders
+        (address, amount, card_number, created, member_id, name, payment) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-11-27T16:16:58.463+09:00  WARN 12376 --- [gallery] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1406, SQLState: 22001
+2025-11-27T16:16:58.463+09:00 ERROR 12376 --- [gallery] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Data truncation: Data too long for column 'card_number' at row 1
+2025-11-27T16:16:58.465+09:00 ERROR 12376 --- [gallery] [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Data truncation: Data too long for column 'card_number' at row 1] [insert into orders (address,amount,card_number,created,member_id,name,payment) values (?,?,?,?,?,?,?)]; SQL [insert into orders (address,amount,card_number,created,member_id,name,payment) values (?,?,?,?,?,?,?)]] with root cause
+
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'card_number' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1340) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:671) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:292) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:273) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:323) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:757) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:741) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364) ~[spring-orm-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy113.persist(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319) ~[spring-orm-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy113.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:626) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy125.save(Unknown Source) ~[na:na]
+	at com.ssg.gallery.order.service.BaseOrderService.order(BaseOrderService.java:88) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.13.jar:6.1.13]
+	at com.ssg.gallery.order.service.BaseOrderService$$SpringCGLIB$$0.order(<generated>) ~[main/:na]
+	at com.ssg.gallery.order.controller.OrderController.add(OrderController.java:55) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-11-27T16:18:50.614+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.created,
+        b1_0.token 
+    from
+        blocks b1_0 
+    where
+        b1_0.token=?
+2025-11-27T16:18:50.636+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:18:50.639+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        orders
+        (address, amount, card_number, created, member_id, name, payment) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-11-27T16:18:50.644+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:18:50.647+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:18:50.651+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:18:50.661+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:18:50.664+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:18:51.924+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:18:54.363+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        o1_0.id,
+        o1_0.address,
+        o1_0.amount,
+        o1_0.card_number,
+        o1_0.created,
+        o1_0.member_id,
+        o1_0.name,
+        o1_0.payment 
+    from
+        orders o1_0 
+    where
+        o1_0.member_id=? 
+    order by
+        o1_0.id desc 
+    limit
+        ?
+2025-11-27T16:18:54.373+09:00  WARN 12376 --- [gallery] [http-nio-8080-exec-2] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-11-27T16:18:55.701+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        o1_0.id,
+        o1_0.address,
+        o1_0.amount,
+        o1_0.card_number,
+        o1_0.created,
+        o1_0.member_id,
+        o1_0.name,
+        o1_0.payment 
+    from
+        orders o1_0 
+    where
+        o1_0.id=? 
+        and o1_0.member_id=?
+2025-11-27T16:18:55.704+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        oi1_0.id,
+        oi1_0.created,
+        oi1_0.item_id,
+        oi1_0.order_id 
+    from
+        order_items oi1_0 
+    where
+        oi1_0.order_id=?
+2025-11-27T16:18:55.708+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:19:00.132+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.created,
+        b1_0.token 
+    from
+        blocks b1_0 
+    where
+        b1_0.token=?
+2025-11-27T16:19:00.134+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        blocks
+        (created, token) 
+    values
+        (?, ?)
+2025-11-27T16:19:00.167+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:19:40.330+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:26:05.093+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-27T16:26:05.095+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        members
+        (created, login_id, login_pw, login_pw_salt, name) 
+    values
+        (?, ?, ?, ?, ?)
+2025-11-27T16:26:06.398+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:26:22.899+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-27T16:26:22.901+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        members
+        (created, login_id, login_pw, login_pw_salt, name) 
+    values
+        (?, ?, ?, ?, ?)
+2025-11-27T16:26:23.991+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:26:41.101+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-27T16:26:41.103+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        members
+        (created, login_id, login_pw, login_pw_salt, name) 
+    values
+        (?, ?, ?, ?, ?)
+2025-11-27T16:26:42.351+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:28:34.385+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-27T16:28:34.414+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:28:36.808+09:00 DEBUG 12376 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        o1_0.id,
+        o1_0.address,
+        o1_0.amount,
+        o1_0.card_number,
+        o1_0.created,
+        o1_0.member_id,
+        o1_0.name,
+        o1_0.payment 
+    from
+        orders o1_0 
+    where
+        o1_0.member_id=? 
+    order by
+        o1_0.id desc 
+    limit
+        ?
+2025-11-27T16:28:46.995+09:00  INFO 12376 --- [gallery] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T16:28:46.997+09:00  INFO 12376 --- [gallery] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-27T16:28:47.004+09:00  INFO 12376 --- [gallery] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-27T16:28:50.930+09:00  INFO 784 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 784 (C:\study\gallery\build\classes\java\main started by a in C:\study\gallery)
+2025-11-27T16:28:50.933+09:00 DEBUG 784 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-11-27T16:28:50.934+09:00  INFO 784 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-27T16:28:51.821+09:00  INFO 784 --- [gallery] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27T16:28:51.928+09:00  INFO 784 --- [gallery] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 6 JPA repository interfaces.
+2025-11-27T16:28:52.520+09:00  INFO 784 --- [gallery] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-27T16:28:52.537+09:00  INFO 784 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-27T16:28:52.537+09:00  INFO 784 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-11-27T16:28:52.611+09:00  INFO 784 --- [gallery] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-27T16:28:52.612+09:00  INFO 784 --- [gallery] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1621 ms
+2025-11-27T16:28:52.779+09:00  INFO 784 --- [gallery] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-27T16:28:52.927+09:00  INFO 784 --- [gallery] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fa02932
+2025-11-27T16:28:52.929+09:00  INFO 784 --- [gallery] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-27T16:28:52.978+09:00  INFO 784 --- [gallery] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27T16:28:53.061+09:00  INFO 784 --- [gallery] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-11-27T16:28:53.109+09:00  INFO 784 --- [gallery] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-27T16:28:53.583+09:00  INFO 784 --- [gallery] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27T16:28:53.723+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2f99d8c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@65d7eea4)
+2025-11-27T16:28:53.724+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5d37aa0f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6076c66)
+2025-11-27T16:28:53.724+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@485c84d7) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1224e1b6)
+2025-11-27T16:28:53.725+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@72a3462f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4ffa7041)
+2025-11-27T16:28:53.725+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@632c3f55) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@56b05bd7)
+2025-11-27T16:28:53.725+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3e4afd10) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@22aefae0)
+2025-11-27T16:28:53.725+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@20faaf77) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7440265c)
+2025-11-27T16:28:53.725+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1d8be7b9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@48277712)
+2025-11-27T16:28:53.726+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3d53e876) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@48d44b46)
+2025-11-27T16:28:53.728+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NCharTypeDescriptor) replaced previous registration(CharTypeDescriptor)
+2025-11-27T16:28:53.728+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NVarcharTypeDescriptor) replaced previous registration(VarcharTypeDescriptor)
+2025-11-27T16:28:53.729+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(LongNVarcharTypeDescriptor) replaced previous registration(LongVarcharTypeDescriptor)
+2025-11-27T16:28:53.733+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NClobTypeDescriptor(DEFAULT)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2025-11-27T16:28:53.733+09:00 DEBUG 784 --- [gallery] [main] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(2005, ClobTypeDescriptor(STREAM_BINDING)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2025-11-27T16:28:54.809+09:00  INFO 784 --- [gallery] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27T16:28:54.813+09:00  INFO 784 --- [gallery] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T16:28:55.339+09:00  WARN 784 --- [gallery] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27T16:28:55.760+09:00  INFO 784 --- [gallery] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-27T16:28:55.769+09:00  INFO 784 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Started GalleryApplication in 5.378 seconds (process running for 6.641)
+2025-11-27T16:28:56.253+09:00  INFO 784 --- [gallery] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-27T16:28:56.253+09:00  INFO 784 --- [gallery] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-27T16:28:56.255+09:00  INFO 784 --- [gallery] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-27T16:28:56.492+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.created,
+        b1_0.token 
+    from
+        blocks b1_0 
+    where
+        b1_0.token=?
+2025-11-27T16:28:56.541+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        blocks
+        (created, token) 
+    values
+        (?, ?)
+2025-11-27T16:28:56.626+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:29:02.310+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.created,
+        m1_0.login_id,
+        m1_0.login_pw,
+        m1_0.login_pw_salt,
+        m1_0.name 
+    from
+        members m1_0 
+    where
+        m1_0.login_id=?
+2025-11-27T16:29:02.381+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:29:04.243+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        o1_0.id,
+        o1_0.address,
+        o1_0.amount,
+        o1_0.card_number,
+        o1_0.created,
+        o1_0.member_id,
+        o1_0.name,
+        o1_0.payment 
+    from
+        orders o1_0 
+    where
+        o1_0.member_id=? 
+    order by
+        o1_0.id desc 
+    limit
+        ?
+2025-11-27T16:29:04.252+09:00  WARN 784 --- [gallery] [http-nio-8080-exec-9] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-11-27T16:29:06.636+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:29:06.644+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:29:10.043+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:29:11.116+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:29:11.119+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:29:12.180+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:29:12.185+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:29:14.094+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:29:15.271+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:29:15.273+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:29:16.283+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:29:16.288+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:29:18.158+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:29:19.347+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:29:19.349+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:29:20.441+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:29:20.444+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?, ?)
+2025-11-27T16:29:22.010+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:29:23.834+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:29:23.837+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:29:24.956+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:29:24.960+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?, ?, ?)
+2025-11-27T16:29:27.196+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:29:28.536+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:29:28.539+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:29:29.808+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:29:29.814+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?, ?, ?, ?)
+2025-11-27T16:29:30.986+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:29:32.319+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:29:32.321+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:29:33.715+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:29:33.720+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?, ?, ?, ?, ?)
+2025-11-27T16:29:38.251+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:29:39.231+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:29:40.409+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:29:40.413+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?, ?, ?, ?, ?)
+2025-11-27T16:29:45.712+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:29:46.900+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:29:48.721+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:29:48.724+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?, ?, ?, ?, ?)
+2025-11-27T16:29:53.536+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:29:53.540+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?, ?, ?, ?, ?)
+2025-11-27T16:30:15.262+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.created,
+        b1_0.token 
+    from
+        blocks b1_0 
+    where
+        b1_0.token=?
+2025-11-27T16:30:15.282+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?, ?, ?, ?, ?)
+2025-11-27T16:30:15.294+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        orders
+        (address, amount, card_number, created, member_id, name, payment) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-11-27T16:30:15.297+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:30:15.298+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:30:15.300+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:30:15.301+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:30:15.303+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:30:15.305+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:30:15.308+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:30:15.316+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:30:15.320+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:30:15.321+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:30:15.322+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:30:15.323+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:30:15.324+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:30:16.411+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:30:20.005+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:30:20.008+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:30:23.026+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:30:23.908+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:30:23.911+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:30:24.982+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:30:24.985+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:30:26.437+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:30:27.083+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:30:27.085+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:30:27.989+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:30:27.992+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:30:29.150+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:30:29.871+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:30:29.873+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:30:31.033+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:30:31.036+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?, ?)
+2025-11-27T16:30:33.238+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:30:33.242+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?, ?)
+2025-11-27T16:30:45.483+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?, ?)
+2025-11-27T16:30:45.485+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        orders
+        (address, amount, card_number, created, member_id, name, payment) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-11-27T16:30:45.487+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:30:45.489+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:30:45.491+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:30:45.493+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:30:45.496+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:30:45.497+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:30:45.497+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:30:46.558+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:30:48.074+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        o1_0.id,
+        o1_0.address,
+        o1_0.amount,
+        o1_0.card_number,
+        o1_0.created,
+        o1_0.member_id,
+        o1_0.name,
+        o1_0.payment 
+    from
+        orders o1_0 
+    where
+        o1_0.member_id=? 
+    order by
+        o1_0.id desc 
+    limit
+        ?
+2025-11-27T16:30:50.446+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        o1_0.id,
+        o1_0.address,
+        o1_0.amount,
+        o1_0.card_number,
+        o1_0.created,
+        o1_0.member_id,
+        o1_0.name,
+        o1_0.payment 
+    from
+        orders o1_0 
+    where
+        o1_0.id=? 
+        and o1_0.member_id=?
+2025-11-27T16:30:50.448+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        oi1_0.id,
+        oi1_0.created,
+        oi1_0.item_id,
+        oi1_0.order_id 
+    from
+        order_items oi1_0 
+    where
+        oi1_0.order_id=?
+2025-11-27T16:30:50.451+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?, ?)
+2025-11-27T16:30:52.744+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        o1_0.id,
+        o1_0.address,
+        o1_0.amount,
+        o1_0.card_number,
+        o1_0.created,
+        o1_0.member_id,
+        o1_0.name,
+        o1_0.payment 
+    from
+        orders o1_0 
+    where
+        o1_0.member_id=? 
+    order by
+        o1_0.id desc 
+    limit
+        ?
+2025-11-27T16:31:04.271+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:31:05.479+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:31:05.481+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:31:06.596+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:06.598+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:31:08.071+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:31:08.917+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:31:08.920+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:31:09.986+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:09.989+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:31:11.388+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:11.391+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:31:17.442+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.created,
+        b1_0.token 
+    from
+        blocks b1_0 
+    where
+        b1_0.token=?
+2025-11-27T16:31:17.457+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:31:17.459+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        orders
+        (address, amount, card_number, created, member_id, name, payment) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-11-27T16:31:17.461+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:31:17.462+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:31:17.465+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:17.466+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:31:17.467+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:31:18.309+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:31:21.446+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:31:21.448+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:31:23.253+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:23.256+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:31:27.099+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:27.102+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:31:32.444+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:31:32.445+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        orders
+        (address, amount, card_number, created, member_id, name, payment) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-11-27T16:31:32.447+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:31:32.450+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:32.452+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:31:33.426+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:31:36.563+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        o1_0.id,
+        o1_0.address,
+        o1_0.amount,
+        o1_0.card_number,
+        o1_0.created,
+        o1_0.member_id,
+        o1_0.name,
+        o1_0.payment 
+    from
+        orders o1_0 
+    where
+        o1_0.member_id=? 
+    order by
+        o1_0.id desc 
+    limit
+        ?
+2025-11-27T16:31:39.813+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:31:40.698+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:31:40.699+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:31:41.663+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:41.666+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:31:42.531+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:42.533+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:31:46.973+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:31:46.974+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        orders
+        (address, amount, card_number, created, member_id, name, payment) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-11-27T16:31:46.976+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:31:46.978+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:46.980+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:31:47.944+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:31:51.329+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:31:51.330+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:31:52.214+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:52.216+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:31:53.138+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:53.140+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:31:58.084+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:31:58.086+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        orders
+        (address, amount, card_number, created, member_id, name, payment) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-11-27T16:31:58.088+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:31:58.090+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:31:58.092+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:31:58.942+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:32:01.642+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=? 
+        and c1_0.item_id=?
+2025-11-27T16:32:01.644+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        carts
+        (created, item_id, member_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:32:02.822+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:32:02.824+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:32:03.663+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:32:03.665+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:32:10.494+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?)
+2025-11-27T16:32:10.496+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        orders
+        (address, amount, card_number, created, member_id, name, payment) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-11-27T16:32:10.498+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items
+        (created, item_id, order_id) 
+    values
+        (?, ?, ?)
+2025-11-27T16:32:10.500+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.created,
+        c1_0.item_id,
+        c1_0.member_id 
+    from
+        carts c1_0 
+    where
+        c1_0.member_id=?
+2025-11-27T16:32:10.502+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    delete 
+    from
+        carts 
+    where
+        id=?
+2025-11-27T16:32:11.280+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:32:12.394+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        o1_0.id,
+        o1_0.address,
+        o1_0.amount,
+        o1_0.card_number,
+        o1_0.created,
+        o1_0.member_id,
+        o1_0.name,
+        o1_0.payment 
+    from
+        orders o1_0 
+    where
+        o1_0.member_id=? 
+    order by
+        o1_0.id desc 
+    limit
+        ?
+2025-11-27T16:32:12.403+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        count(o1_0.id) 
+    from
+        orders o1_0 
+    where
+        o1_0.member_id=?
+2025-11-27T16:32:14.112+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        o1_0.id,
+        o1_0.address,
+        o1_0.amount,
+        o1_0.card_number,
+        o1_0.created,
+        o1_0.member_id,
+        o1_0.name,
+        o1_0.payment 
+    from
+        orders o1_0 
+    where
+        o1_0.member_id=? 
+    order by
+        o1_0.id desc 
+    limit
+        ?, ?
+2025-11-27T16:32:15.649+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        o1_0.id,
+        o1_0.address,
+        o1_0.amount,
+        o1_0.card_number,
+        o1_0.created,
+        o1_0.member_id,
+        o1_0.name,
+        o1_0.payment 
+    from
+        orders o1_0 
+    where
+        o1_0.member_id=? 
+    order by
+        o1_0.id desc 
+    limit
+        ?
+2025-11-27T16:32:15.651+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        count(o1_0.id) 
+    from
+        orders o1_0 
+    where
+        o1_0.member_id=?
+2025-11-27T16:32:19.128+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.created,
+        b1_0.token 
+    from
+        blocks b1_0 
+    where
+        b1_0.token=?
+2025-11-27T16:32:19.140+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.created,
+        b1_0.token 
+    from
+        blocks b1_0 
+    where
+        b1_0.token=?
+2025-11-27T16:32:19.155+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        o1_0.id,
+        o1_0.address,
+        o1_0.amount,
+        o1_0.card_number,
+        o1_0.created,
+        o1_0.member_id,
+        o1_0.name,
+        o1_0.payment 
+    from
+        orders o1_0 
+    where
+        o1_0.id=? 
+        and o1_0.member_id=?
+2025-11-27T16:32:19.157+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        oi1_0.id,
+        oi1_0.created,
+        oi1_0.item_id,
+        oi1_0.order_id 
+    from
+        order_items oi1_0 
+    where
+        oi1_0.order_id=?
+2025-11-27T16:32:19.160+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0 
+    where
+        i1_0.id in (?, ?)
+2025-11-27T16:32:23.377+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.created,
+        b1_0.token 
+    from
+        blocks b1_0 
+    where
+        b1_0.token=?
+2025-11-27T16:32:23.379+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        blocks
+        (created, token) 
+    values
+        (?, ?)
+2025-11-27T16:32:23.408+09:00 DEBUG 784 --- [gallery] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        i1_0.id,
+        i1_0.created,
+        i1_0.discount_per,
+        i1_0.img_path,
+        i1_0.name,
+        i1_0.price 
+    from
+        items i1_0
+2025-11-27T16:32:38.989+09:00  INFO 784 --- [gallery] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T16:32:38.991+09:00  INFO 784 --- [gallery] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-27T16:32:38.997+09:00  INFO 784 --- [gallery] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
